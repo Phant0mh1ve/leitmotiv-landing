@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #181717;
+}
+
+.header {
+    padding: 60px 120px 60px 120px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    height: 60px;
+    width: 60px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.nav-item {
+    height: fit-content;
+}
+
+.reg-button-container {
+    height: fit-content;
+}
+
+.reg-button {
+    background-color: #181717;
+    border: #FFFFFF solid 1px;
+    border-radius: 8px;
+    padding: 10px 22px;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.reg-button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.reg-button:active {
+    background-color: #000000;
+    color: #FFFFFF;
+    transition: none;
+}
