@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #181717;
+    font-family: Inter, serif;
 }
 
 .header {
@@ -33,6 +34,9 @@ body {
 
 .nav-item {
     height: fit-content;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .reg-button-container {
@@ -58,4 +62,78 @@ body {
     background-color: #000000;
     color: #FFFFFF;
     transition: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+    padding: 0 120px 0 120px;
+}
+
+.footer {
+    height: 421px;
+    background-color: #202020;
+    padding: 78px 120px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    /*font-family: 'Aeonik TRIAL';*/
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    height: fit-content;
+}
+
+.logo-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.logo-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.footer-menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contacts-container {
+    display: flex;
+    gap: 26px;
+}
+
+.contact-img-container {
+    width: 32px;
+    height: 32px;
 }
