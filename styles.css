@@ -67,8 +67,73 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 180px;
     padding: 0 120px 0 120px;
+}
+
+
+.welcome-screen {
+    color: #FFFFFF;
+    display: flex;
+    gap: 104px;
+}
+
+.welcome-screen-left-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin-bottom: 15px;
+}
+
+.welcome-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 464px;
+}
+
+.tg-bot-button {
+    color: #FFFFFF;
+    background-color: #1563DE;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 18px 33px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tg-bot-button:hover {
+    background-color: #114FB2;
+}
+
+.tg-bot-button:active {
+    background-color: #0D3B85;
+    transition: none;
+}
+
+.welcome-screen-right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 91px;
+    margin: 0;
+    max-width: 682px;
+}
+
+.title {
+    background: linear-gradient(169.41deg, #B3D1FF 0%, #5A9CFF 93.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .footer {
