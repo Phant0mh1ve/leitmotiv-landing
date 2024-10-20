@@ -76,7 +76,9 @@ body {
 .welcome-screen {
     color: #FFFFFF;
     display: flex;
-    gap: 104px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1206px;
 }
 
 .welcome-screen-left-col {
@@ -134,6 +136,75 @@ body {
     background: linear-gradient(169.41deg, #B3D1FF 0%, #5A9CFF 93.34%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.block-title {
+    margin: 0 0 60px 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.curriculum-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1206px;
+}
+
+.curriculum-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.curriculum-stage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #3D3D3D solid 1px;
+    padding: 20px 0 20px 0;
+}
+
+.curriculum-stage:first-child {
+    border-top: #3D3D3D solid 1px;
+}
+
+.curriculum-stage-left-col {
+    display: flex;
+    gap: 175px;
+}
+
+.curriculum-stage-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A9CFF;
+}
+
+.curriculum-stage-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.curriculum-stage-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    max-width: 485px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.curriculum-stage-description-list {
+    margin: 0;
+    padding-left: 20px;
 }
 
 .footer {
