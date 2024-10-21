@@ -207,6 +207,77 @@ body {
     padding-left: 20px;
 }
 
+
+
+
+/*----------------------------------------------*/
+
+.studying-block {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    max-width: 1206px;
+}
+
+.studying-title {
+    text-align: center;
+    /*font-family: Aeonik TRIAL;*/
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #FFFFFF;
+
+}
+
+.stages-container {
+    display: flex;
+    gap: 15px;
+}
+
+.stage-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 34px;
+
+    background:
+            linear-gradient(to right, #181717, #181717) padding-box, /*this is your grey background*/
+            linear-gradient(160deg, #1D5AB6, #5A9CFF) border-box;
+    color: #313149;
+    border: 3px solid transparent;
+    border-radius: 15px;
+
+}
+
+
+.stage-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    color: #5A9CFF;
+    padding-bottom: 30px;
+
+}
+
+.stage-content {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.stage-number {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #BABABA;
+    align-self: flex-end;
+}
+
+/*-----------------------------------------------*/
+
 .footer {
     height: 421px;
     background-color: #202020;
