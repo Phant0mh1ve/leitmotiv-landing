@@ -144,6 +144,7 @@ body {
     font-size: 64px;
     line-height: 73px;
     color: #FFFFFF;
+		justify-self: center;
 }
 
 .curriculum-block {
@@ -319,8 +320,68 @@ body {
     height: 60px;
 }
 
+.who-is-our-course-for{
+		display: flex;
+		gap: 20px;
+		/* flex-direction: column; */
+		/* max-width: 1206px; */
+		justify-content: center;
+		height: 500px;
+		padding: 0 160px 100px 160px;
+}
 
-/*-----------------------------------------------*/
+/* .participants{
+		box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 387px;
+    height: 320px;
+    background-color: #2A2A2A73;
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 32px 32px 26px 32px;
+    border: solid #2A2A2A73 1px;
+} */
+
+.participants1 {
+	align-self: flex-start;
+	width: 320px;
+	background-color: #2A2A2A73;
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  padding: 32px 32px 26px 32px;
+  border: solid #2A2A2A73 1px;
+}
+
+
+.participants2 {
+	align-self: center;
+	width: 320px;
+	background-color: #2A2A2A73;
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  padding: 32px 32px 26px 32px;
+  border: solid #2A2A2A73 1px;
+}
+
+
+.participants3 {
+	align-self: flex-end;
+	width: 320px;
+	background-color: #2A2A2A73;
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  padding: 32px 32px 26px 32px;
+  border: solid #2A2A2A73 1px;
+}
+
+.participants-text{
+	
+	font-size: 18px;
+	font-weight: 400;
+	color: #BABABA;
+}
 
 .footer {
     height: 421px;
